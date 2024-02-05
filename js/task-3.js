@@ -1,3 +1,11 @@
-function getElementWidth(content, padding, border) {
-    return Number.parseFloat(content) + Number.parseFloat(padding) * 2 + Number.parseFloat(border) * 2;
+function filterArray(numbers, value) {
+    let arrayNumbers = [];
+    for (const i of numbers) {
+        if (i > value) {
+            arrayNumbers.push(i);
+        }
+    }
+    return arrayNumbers;
 }
+
+    

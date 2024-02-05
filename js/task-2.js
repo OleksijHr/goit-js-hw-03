@@ -1,4 +1,3 @@
-function getShippingMassage(country, price, deliveryFee) {
-    let totalPrice = price + deliveryFee;
-    return `Shipping to ${country} will cost ${totalPrice} credits`;
+function makeArray(firstArray, secondArray, maxLength) {
+    return allAray = firstArray.concat(secondArray).length > maxLength ? firstArray.concat(secondArray).slice(0, maxLength) : firstArray.concat(secondArray);
 }
